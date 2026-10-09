@@ -1,19 +1,84 @@
-
-
+/* Basic Page Setup */
 body {
-    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 0;
 }
 
+/* Header Section */
+header {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Main Container */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Section Box Styling */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #555555;
+    margin-top: 15px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Profile Image - Simple Rectangle */
 .profile-img {
-    width: 180px;
+    width: 200px;
     height: auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
 }
 
-.portfolio-img {
-    height: 180px;
-    object-fit: cover;
+/* Lists */
+ul, ol {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: blue;
 }
 
 a:hover {
-    opacity: 0.8;
+    color: red;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #dddddd;
+    margin-top: 20px;
 }
